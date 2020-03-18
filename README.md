@@ -1,0 +1,3 @@
+Unit 6 Project: Project Portfolio
+In this project, I combined javascript, CSS, PUG, and JSON to create a web page that displays all of my unit projects from this year in Advanced Topics Web Development. On the left of the page is a picture of me and a short bio. This bio includes an link to an about page which has a longer bio, a list of my skills, and my contact info. On the right of the web page are six projects which can be clicked on. This will pull up two more pictures of the projects, a short description of the projects, the technologies used, a live link for the project, and a github repository link.
+I made changes in the CSS to background color, font, font-size, and font color. I noted these changes by commenting change right before the change.

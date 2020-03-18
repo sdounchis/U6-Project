@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "json package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSNaples/unit-6-project-static-node-js-and-express-site-sdounchis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSNaples/unit-6-project-static-node-js-and-express-site-sdounchis/issues"
+  },
+  "homepage": "https://github.com/CSNaples/unit-6-project-static-node-js-and-express-site-sdounchis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

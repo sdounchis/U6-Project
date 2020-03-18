@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Hey, College Admissions Officer!
+
+      p.lead.text-light
+        | Currently in my Junior year in Advanced Topics: Web Development, I have completed six projects including this one.
+
+  article.grid-container.portfolio-index
+
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      //use each to iterate through each project
+      each project in projects
+        .cell
+          a(href= '/projects/' + project.id)
+            img.thumbnail(src='' + project.project_thumbnail)
+            h5 #{project.project_name}
